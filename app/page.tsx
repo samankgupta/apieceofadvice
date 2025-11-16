@@ -41,10 +41,10 @@ export default function Home() {
       {/* Decorative subtle gradient blobs behind the card */}
       <div aria-hidden className="absolute inset-0 -z-10">
         <div className="absolute left-1/2 top-10 -translate-x-1/2 transform blur-3xl">
-          <div className="w-[780px] h-[420px] rounded-full bg-gradient-to-br from-rose-100 via-amber-100 to-sky-100 opacity-40" />
+          <div className="rounded-full bg-gradient-to-br from-rose-100 via-amber-100 to-sky-100 opacity-40" />
         </div>
         <div className="absolute right-10 bottom-20 transform blur-2xl">
-          <div className="w-[420px] h-[240px] rounded-full bg-gradient-to-tr from-indigo-50 to-cyan-50 opacity-25" />
+          <div className="rounded-full bg-gradient-to-tr from-indigo-50 to-cyan-50 opacity-25" />
         </div>
       </div>
 

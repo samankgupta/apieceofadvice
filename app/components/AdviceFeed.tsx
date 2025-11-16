@@ -197,7 +197,7 @@ export default function AdviceFeed() {
           <button
             onClick={saveUsername}
             disabled={!user || !editingUsername || editingUsername === username}
-            className={`rounded-lg px-5 py-2 min-w-[140px] h-11 text-base inline-flex items-center justify-center whitespace-nowrap shadow-sm
+            className={`rounded-lg px-5 py-2  h-11 text-base inline-flex items-center justify-center whitespace-nowrap shadow-sm
               ${editingUsername === username || !editingUsername || !user ? "bg-green-400 text-white cursor-not-allowed opacity-70" : "bg-green-600 text-white hover:cursor-pointer hover:shadow-md"}`}
           >
             <span>Save username</span>

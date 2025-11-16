@@ -38,10 +38,10 @@ export default function Dashboard() {
       {/* Decorative subtle gradient blobs behind the dashboard */}
       <div aria-hidden className="absolute inset-0 -z-10">
         <div className="absolute left-10 top-8 transform blur-3xl">
-          <div className="w-[680px] h-[360px] rounded-full bg-gradient-to-br from-rose-100 via-amber-100 to-sky-100 opacity-40" />
+          <div className="rounded-full bg-gradient-to-br from-rose-100 via-amber-100 to-sky-100 opacity-40" />
         </div>
         <div className="absolute right-8 bottom-12 transform blur-2xl">
-          <div className="w-[360px] h-[200px] rounded-full bg-gradient-to-tr from-indigo-50 to-cyan-50 opacity-25" />
+          <div className="rounded-full bg-gradient-to-tr from-indigo-50 to-cyan-50 opacity-25" />
         </div>
       </div>
 

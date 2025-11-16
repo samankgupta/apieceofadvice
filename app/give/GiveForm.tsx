@@ -74,7 +74,7 @@ export default function GiveForm({ username }: { username: string }) {
           <button
             type="submit"
             disabled={loading}
-            className="inline-flex items-center rounded-lg bg-sky-600 px-6 py-2 min-w-[140px] h-11 text-base font-semibold text-white shadow-md hover:bg-sky-700 disabled:opacity-60 hover:cursor-pointer whitespace-nowrap"
+            className="inline-flex items-center rounded-lg bg-sky-600 px-6 py-2 h-11 text-base font-semibold text-white shadow-md hover:bg-sky-700 disabled:opacity-60 hover:cursor-pointer whitespace-nowrap"
           >
             <span>{loading ? "Sending…" : "Send advice"}</span>
           </button>
