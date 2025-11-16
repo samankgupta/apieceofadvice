@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# A Piece Of Advice
 
-## Getting Started
+![Home Page Screenshot](public/ss1.png)
 
-First, run the development server:
+Lightweight Next.js app (App Router) + Supabase for auth + Postgres. People can send short pieces of advice to each other via a per-user public give link: `/give/<username>`. The app includes a small dashboard, per-advice delete for owners, and server-authoritative writes for security.
+
+![Dashboard Screenshot](public/ss2.png)
+![Give link Screenshot](public/ss3.png)
+
+
+## Quick start (developer)
+
+1. Add supabase env vars into `.env.local`:
+
+2. Install and run locally:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Sign in (Google) and open your dashboard to see incoming advice.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project overview
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Framework: Next.js (App Router), React, TypeScript
+- UI: Tailwind CSS
+- Auth & DB: Supabase (Auth + Postgres)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is open-source under the **MIT License**.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
